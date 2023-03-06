@@ -1,0 +1,39 @@
+.icon:hover
+{
+    cursor: pointer;
+    scale: 1.2;
+}
+
+.icon
+{
+    height: var(--icon-size);
+    width: var(--icon-size);
+    color: var(--font-color);
+    transition: 0.5s ease-in-out;
+    
+}
+
+#arrow-left-icon
+{  
+    float: left;
+    position: absolute;
+    top:20px;
+    left:1%;
+}
+
+#home-icon
+{
+    float: right;
+}
+
+#x-icon
+{
+    scale: 0.5;
+}
+
+#theme-icon
+{
+    position: relative;
+    top:5px;
+}
+

@@ -1,0 +1,98 @@
+#edit-student-button
+{
+    font-size: 1.25rem;
+    position: absolute;
+    top:20%;
+    left: 1%;
+}
+
+#update-form-container
+{
+    position: absolute;
+    top: 20%;
+    left:0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.add-input
+{  
+    font-size: 1.25rem;
+    border: none;
+    max-width: 40%;
+    border-radius: 10px;
+    font-weight: 600;
+    color: wheat;
+    background-color: rgb(211, 157, 57);
+}
+
+#add-student-form
+{
+    width: var(--update-window-size);
+    position: relative;
+    top:-100px;
+    z-index: 1;
+    padding: 20px;
+    margin-bottom: 100px;
+    background-color:  rgb(211, 157, 57);
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: var(--update-window-size);
+    grid-gap: 20px;
+    -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+}
+
+#add-student-form > header
+{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+#save-cancel-buttons
+{
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+}
+
+#holydays-input-container
+{
+    position: relative;
+    top:-35px;
+}
+
+#holydays-input-container > span
+{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-right: 20px;
+    color: rgb(128, 125, 125);
+}
+
+#holydays-input-container > input
+{
+    scale: 2;
+}
+
+#save-button
+{
+    font-size: 1.2rem;
+    background-color: rgb(51, 115, 189);
+}
+
+#cancel-button
+{
+    height: var( --icon-size);
+    border-radius: 10px;
+    margin-top: calc(var(--icon-size)/4);
+}
+
+.label
+{
+    position: relative;
+    top:15px;
+}

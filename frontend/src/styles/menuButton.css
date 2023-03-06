@@ -1,0 +1,51 @@
+.menu-button
+{
+    border-radius: 20px; 
+    width: var( --home-button-size);
+    height: var( --home-button-size);
+    transition: 0.3s ease-in-out;
+    color: white;
+    font-weight: 600;
+    text-shadow: 1px 1px #0f0f0f;
+}
+
+.menu-button >img
+{
+    width: 15vw;
+}
+
+.menu-button >span
+{
+   display: block;
+   font-size: 1.25rem;
+}
+
+
+.add-student-button
+{
+   display: flex;
+   justify-content: center;
+}
+
+.details-button
+{
+    width: 100px;
+    height: 30px;
+    color: wheat;
+    font-weight: 600;
+    background-color: #d39d39;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    transition: 0.5s ease-in-out;
+}
+
+button:hover
+{
+    cursor: pointer;
+    scale: 1.2;
+}
+
+button
+{
+    border: none;
+}

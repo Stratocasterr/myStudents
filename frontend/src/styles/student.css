@@ -1,0 +1,54 @@
+.student
+{
+    background-color: var(--student-background-color);
+    color: var(--font-color);
+    width: var(--student-window-width);
+    border-radius: 20px;
+    border: 1px solid white;
+    text-align: center;
+   
+    margin-left: 40px;
+}
+
+.single-info
+{
+    padding: 4px 10px;
+    text-align: left;
+    border-radius: 5px;
+    min-height: 50px;
+    margin: 15px 10px;
+    background-color: var(--info-background-color);
+}
+
+.single-info > header
+{
+    font-size: 0.75rem;
+}
+
+.single-info > span
+{
+    font-size: 1.25rem;
+    color: rgb(71, 121, 230);
+}
+
+#full-student-info
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#single-student-stats
+{
+    position: absolute;
+    top:34%;
+    left: 1.3rem;
+}
+
+#remove-student-button
+{
+    position: absolute;
+    top:45%;
+    left: 1%;
+    background-color: red;
+    font-size: 1.25rem;
+}

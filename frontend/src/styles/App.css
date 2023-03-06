@@ -1,0 +1,81 @@
+/* desktop */
+@media only screen and (min-width: 626px)
+{
+    html
+    {
+        font-size: 20px;
+    }
+
+    :root
+    {
+        --circle-button-size:80px;
+        --home-button-size:450px;
+        --icon-size:50px;
+        --students-column-amount:5;
+        --home-buttons-display:flex;
+        --student-window-width:350px;
+        --update-window-size:700px;
+    }
+
+   
+}
+
+/* mobile */
+@media only screen and (max-width :625px)
+{
+    html
+    {
+        font-size: 10px;
+    }
+
+    :root
+    {
+        --circle-button-size:40px;
+        --home-button-size:150px;
+        --icon-size:25px;
+        --students-column-amount:1;
+        --home-buttons-display:grid;
+        --student-window-width:150px;
+        --update-window-size:300px;
+    }
+    
+}
+
+body{
+/* light theme */
+    --background: rgb(215, 221, 224);
+    --font-color: rgb(10, 24, 63);
+    --info-background-color: rgb(241, 236, 236);
+    --student-background-color:white;
+    background-color: rgb(77, 75, 75);
+    color: aliceblue;
+}
+
+.dark
+{
+    --background: black;
+    --font-color: white;
+    --info-background-color:#0a0a0a;
+    --student-background-color:#080808;
+}
+
+.App{
+    width: 80%;
+    position: relative;
+    margin-top: calc(3*var( --circle-button-size));
+    top:-100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.circle-button
+{
+    width: var( --circle-button-size);
+    height: var( --circle-button-size);
+    border-radius: 50%;
+    background-color: rgb(211, 157, 57);
+    color: wheat;
+    transition: 0.3s ease-in-out;
+    font-size: 3rem; 
+}
+
