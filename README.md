@@ -12,3 +12,4 @@ This app is for private lessons' teachers, to keep information about their stude
 <video src= "https://user-images.githubusercontent.com/101999487/221589981-9b754896-1090-4359-a446-8b0b5b98d03d.mp4" />
 
 ## Demo (mobile version) 
+<video src= "https://user-images.githubusercontent.com/101999487/221590792-bb44e9f4-7c58-4ab2-b08a-d69473790d36.mp4" />
